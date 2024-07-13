@@ -1,0 +1,21 @@
+{
+    "name": "start-app-dir",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
+    },
+    "dependencies": {
+        "isotope-layout": "^3.0.6",
+        "next": "14.0.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "sass": "^1.69.5",
+        "swiper": "^11.0.5",
+        "wowjs": "^1.1.3"
+    }
+}
